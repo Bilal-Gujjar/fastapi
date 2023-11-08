@@ -1,3 +1,4 @@
+#app/models/user.py
 from sqlalchemy import Column, Integer, String, Sequence, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime

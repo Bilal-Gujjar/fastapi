@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
 from fastapi import Depends
-from ecommerce_manager.app.core.database import SessionLocal
+from ..core.database import SessionLocal
+
 
 def get_db():
     db = SessionLocal()
@@ -8,3 +9,4 @@ def get_db():
         yield db
     finally:
         db.close()
+#app/api/deps.py

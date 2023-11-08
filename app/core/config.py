@@ -1,3 +1,4 @@
+#app/core/config.py
 from starlette.config import Config
 from pydantic_settings import BaseSettings
 
